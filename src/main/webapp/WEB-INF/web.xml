@@ -1,0 +1,121 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+<servlet>
+   
+    <servlet-name>register</servlet-name>
+    <servlet-class>com.user.servlet.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>com.user.servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/login</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>com.user.servlet.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>add_books</servlet-name>
+    <servlet-class>com.admin.servlet.BooksAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>add_books</servlet-name>
+    <url-pattern>/add_books</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>editbooks</servlet-name>
+    <servlet-class>com.admin.servlet.EditBooksServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>editbooks</servlet-name>
+    <url-pattern>/editbooks</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>com.admin.servlet.BooksDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>cart</servlet-name>
+    <servlet-class>com.user.servlet.CartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>cart</servlet-name>
+    <url-pattern>/cart</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>remove_book</servlet-name>
+    <servlet-class>com.user.servlet.RemoveBookCart</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>remove_book</servlet-name>
+    <url-pattern>/remove_book</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>add_old_book</servlet-name>
+    <servlet-class>com.user.servlet.AddOldBook</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>add_old_book</servlet-name>
+    <url-pattern>/add_old_book</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>delete_old_book</servlet-name>
+    <servlet-class>com.user.servlet.DeleteOldBook</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>delete_old_book</servlet-name>
+    <url-pattern>/delete_old_book</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>update_profile</servlet-name>
+    <servlet-class>com.user.servlet.UpdateProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>update_profile</servlet-name>
+    <url-pattern>/update_profile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>order</servlet-name>
+    <servlet-class>com.user.servlet.OrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>order</servlet-name>
+    <url-pattern>/order</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>searchBook</servlet-name>
+    <servlet-class>com.user.servlet.SearchBookServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>searchBook</servlet-name>
+    <url-pattern>/searchBook</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
+
